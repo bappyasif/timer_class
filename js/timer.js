@@ -79,6 +79,9 @@ class Timer {
             this.start();
         }
     }
+    _resetTimer(time) {
+        this._startingTime = time;
+    }
 }
 
 // export

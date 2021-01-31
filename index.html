@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Understanding Class Construct With A Timer Class</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div id="timer01" class="timer"></div>
-    <button>pause</button>
+    <div class="timer-div">
+        <div id="timer01" class="timer"></div>
+    </div>
+    <div class="input-div">
+        <input type="text">
+        <button id="ok">Set Timer Press "OK"</button>
+    </div>
+    <div class="button-div">
+        <button id="pause">pause</button>
+        <button id="reset">Reset</button>
+    </div>
     <script src="js/timer.js"></script>
     <script src="js/init.js"></script>
 </body>
+
 </html>
